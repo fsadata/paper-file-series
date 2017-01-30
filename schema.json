@@ -1,0 +1,44 @@
+{
+	"fields": [
+		{
+			"name": "Prefix",
+			"title": "Prefix",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "CurrentOwner",
+			"title": "Current Owner",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "UsagePeriod",
+			"title": "Usage Period",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "NumberOfPaperFilesDepositedAtStore",
+			"title": "Number Of Paper Files Deposited At Store",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "BusinessFunctionCovered",
+			"title": "Business Function Covered",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
